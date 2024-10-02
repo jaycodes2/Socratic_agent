@@ -9,6 +9,7 @@ Interactive Learning: Focuses on understanding performance issues, code optimiza
 Personalized Learning Path: Adaptively helps students tackle problem-solving based on their responses.
 Real-Time Feedback: Provides instant feedback on code performance, specifically around timeouts and optimizations.
 Dataset with Clue-based Learning: The dataset includes clues that lead to answers, designed to engage users and help them learn the concepts deeply.
+
 Tech Stack
 Frontend: HTML, React, Tailwind CSS
 Backend: Python, Flask
@@ -16,23 +17,21 @@ Database: MongoDB
 AI Integration: Google Generative AI (Gemini API)
 Hosting/Deployment: Vercel or Netlify
 Getting Started
+
 Prerequisites
 Python: Make sure Python 3.x is installed on your local machine.
 MongoDB: A MongoDB database for storing user interactions and learning sessions.
 Google Generative AI API (Gemini): Integrated for the AI-driven Socratic method.
 Installation
 Clone the repository:
-
-bash
 Copy code
 git clone https://github.com/yourusername/socratic-chatbot-dsa.git
 cd socratic-chatbot-dsa
 Install the required Python dependencies:
-
-bash
 Copy code
 pip install -r requirements.txt
-Set up MongoDB for storing conversation history and user interactions. Refer to MongoDB documentation for setting up a local database or use a cloud solution.
+Set up MongoDB for storing conversation history and user interactions.
+Refer to MongoDB documentation for setting up a local database or use a cloud solution.
 
 Create an .env file in the root directory and add your API keys and MongoDB connection string:
 
@@ -57,6 +56,8 @@ Start the React development server:
 bash
 Copy code
 npm start
+
+
 Using the Socratic Chatbot
 Once the server is running, open your browser and navigate to http://localhost:3000/.
 Start interacting with the chatbot by asking questions related to DSA topics.
@@ -67,6 +68,7 @@ Create a new branch (git checkout -b feature-branch).
 Make your changes and commit them (git commit -am 'Add new feature').
 Push to the branch (git push origin feature-branch).
 Open a pull request.
+
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
