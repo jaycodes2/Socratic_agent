@@ -5,5 +5,8 @@ google-generativeai==0.3.0
 bson==0.5.10
 gunicorn
 Werkzeug==2.0
+pymongo==4.5.0  # or latest
+flask_pymongo==2.3.0  # or latest
+bson==0.5.10  # or latest, but pymongo includes bson
 
 
