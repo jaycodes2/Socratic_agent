@@ -1,0 +1,5 @@
+Flask==2.1.1
+Flask-PyMongo==2.3.0
+Flask-CORS==3.0.10
+google-generativeai==0.3.0
+bson==0.5.10
